@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pincode Finder</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+<body>
+    <p>Enter 6 digit pincode</p>
+    <div class="form-group box1">
+        <input type="number" id="pin" placeholder="Enter pincode">
+        <button onclick="fun()" class="btn btn-primary">Submit</button>
+    </div>
+    <div class="form-group box2">
+        <p><b>State:</b></p>
+        <input type="text" id="state" disabled>
+
+        <p><b>District:</b></p>
+        <input type="text" id="district" disabled>
+
+        <p><b>Area:</b></p>
+        <input type="text" id="area" disabled>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
